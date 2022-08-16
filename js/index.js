@@ -40,7 +40,7 @@ background: rgba(${colors}, ${opaci});
 <br>
 backdrop-Filter: ${opaci};
 <br>
-backdrop-Filter: Blur(${blurr});
+backdrop-Filter: (${blurr});
 <br>
 width: ${sizes};
 <br>
@@ -67,7 +67,7 @@ background: rgba(${colors}, ${opaci});
 <br>
 backdrop-Filter: ${opaci};
 <br>
-backdrop-Filter: Blur(${blurr});
+backdrop-Filter: (${blurr});
 <br>
 width: ${sizes};
 <br>
@@ -87,7 +87,7 @@ background: rgba(${colors}, ${opaci});
 <br>
 backdrop-Filter: ${opaci};
 <br>
-backdrop-Filter: Blur(${blurr});
+backdrop-Filter: (${blurr});
 <br>
 width: ${sizes};
 <br>
@@ -118,7 +118,7 @@ background: rgba(${colors}, ${opaci});
 <br>
 backdrop-Filter: ${opaci};
 <br>
-backdrop-Filter: Blur(${blurr});
+backdrop-Filter: (${blurr});
 <br>
 width: ${sizes};
 <br>
@@ -146,7 +146,7 @@ background: rgba(${colors}, ${opaci});
 <br>
 backdrop-Filter: ${opaci};
 <br>
-backdrop-Filter: Blur(${blurr});
+backdrop-Filter: (${blurr});
 <br>
 width: ${sizes};
 <br>
