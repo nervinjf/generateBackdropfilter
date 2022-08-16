@@ -40,7 +40,7 @@ background: rgba(${colors}, ${opaci});
 <br>
 backdrop-Filter: ${opaci};
 <br>
-backdrop-Filter: Blur(${blurr});
+backdrop-Filter: ${blurr};
 <br>
 width: ${sizes};
 <br>
@@ -59,15 +59,15 @@ blur.addEventListener('mouseup', (e) => {
 });
 
 blur.addEventListener("input", (e) =>{
-  const blurr = `Blur(${e.target.value}px)`;
-  square.style.backdropFilter = `Blur(${e.target.value}px)`;
+  blurr = `Blur(${e.target.value}px)`;
+  square.style.backdropFilter = blurr;
   e.target.nextElementSibling.textContent = blurr;
   text.innerHTML = `<p class="textContent">
 background: rgba(${colors}, ${opaci});
 <br>
 backdrop-Filter: ${opaci};
 <br>
-backdrop-Filter: Blur(${blurr});
+backdrop-Filter: ${blurr};
 <br>
 width: ${sizes};
 <br>
@@ -87,7 +87,7 @@ background: rgba(${colors}, ${opaci});
 <br>
 backdrop-Filter: ${opaci};
 <br>
-backdrop-Filter: Blur(${blurr});
+backdrop-Filter: ${blurr};
 <br>
 width: ${sizes};
 <br>
@@ -118,7 +118,7 @@ background: rgba(${colors}, ${opaci});
 <br>
 backdrop-Filter: ${opaci};
 <br>
-backdrop-Filter: Blur(${blurr});
+backdrop-Filter: ${blurr};
 <br>
 width: ${sizes};
 <br>
@@ -146,7 +146,7 @@ background: rgba(${colors}, ${opaci});
 <br>
 backdrop-Filter: ${opaci};
 <br>
-backdrop-Filter: Blur(${blurr});
+backdrop-Filter: ${blurr};
 <br>
 width: ${sizes};
 <br>
