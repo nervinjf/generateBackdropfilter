@@ -1,0 +1,56 @@
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./styles/styles.css">
+</head>
+<body>
+    <div class="contenedor-total">
+        <div class="move-square">
+            <div class="con-square">
+                <div class="square"></div>
+            </div>
+        </div>
+    <div class="container-all-range">
+        <div class="container-range" class="move-range-color">
+            <div class="color" class="move-range-input">
+                <label for="range"> Selecciona color:</label>
+                <input type="color" name="micolor" id="micolor">
+
+            </div>
+            
+            <div class="move-range-input">
+                <label for="range"> Opacidad:</label>
+                <input type="range" min="0" max="1" step="0.1" value="0.5" id="opacidad">
+                    <div class="tooltip"></div>
+            </div>
+            <div class="move-range-input">
+                <label for="range"> Difuminado:</label>
+                <input type="range" min="0" max="100" id="blur">
+                <div class="tooltip-difumi"></div>
+            </div>
+            <div class="move-range-input">
+                <label for="range"> Tamaño:</label>
+                <input type="range" min="0" max="700" value="300" id="tamaño">
+                <div class="tooltip"></div>
+            </div>
+            <div class="move-range-input">
+                <label for="range"> Border-radius:</label>
+                <input type="range" min="0" max="50" value="0" id="radio">
+                <div class="tooltip"></div>
+            </div>
+            <div class="cont-texConten">
+                <p class="textContent" id="content"></p>
+            </div>
+            <div class="move-btn">
+                <button id="copy" title="Copy Textarea Content">Copy</button>
+            </div>
+            
+        </div>
+    </div>
+    </div>
+</body>
+<script src="./js/index.js" mode="node"></script>
+</html>
