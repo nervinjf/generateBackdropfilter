@@ -1,7 +1,7 @@
 body{
     background-image: url(https://www.adonde-y-cuando.es/site/images/illustration/archipel-de-los-roques.jpg);
     background-repeat: no-repeat;
-    background-size: 100%;
+    background-size: cover;
 }
 
 .contenedor-total{
